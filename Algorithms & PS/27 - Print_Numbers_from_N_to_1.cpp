@@ -9,7 +9,7 @@ int readNum()
     return num;
 }
 
-void printNumberFrom1ToN(int num)
+void printNumberFromNTo1(int num)
 {
     for (int i = num; i >= 1; i--)
     {
@@ -20,6 +20,6 @@ void printNumberFrom1ToN(int num)
 int main()
 {
     int num = readNum();
-    printNumberFrom1ToN(num);
+    printNumberFromNTo1(num);
     return 0;
 }
