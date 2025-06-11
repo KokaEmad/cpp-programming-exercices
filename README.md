@@ -2,6 +2,12 @@
 
 A comprehensive collection of C++ programming exercises and concepts, designed to help learners master C++ programming from basics to advanced topics. This repository serves as a practical guide through various programming challenges and fundamental concepts.
 
+📺 **Course**: كورس رقم 3 – *مقدمة في البرمجة باستخدام C++*  
+👨‍🏫 **Instructor**: Programming Advices  
+🔗 **Playlist**: https://www.youtube.com/playlist?list=PL3X--QIIK-OFIRbOHbOXbcfSAvw198lUy  
+🎓 **Level**: Beginner  
+✅ **Status**: Completed — جميع الدروس تم حلها وتطبيقها عمليًا
+
 ## What's Inside
 
 This repository is organized into two main sections:
