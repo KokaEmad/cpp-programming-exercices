@@ -25,6 +25,8 @@ A structured approach to learning C++ concepts including:
 - String Manipulation
 - Scope and Lifetime
 - Operator Usage (Arithmetic, Logical, Relational)
+- Break Statement
+- Continue Statement
 
 ## Key Features
 - Progressive difficulty levels
