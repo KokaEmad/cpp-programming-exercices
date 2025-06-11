@@ -17,7 +17,7 @@ A collection of carefully crafted programming exercises covering:
 ### 2. C++ Fundamentals
 A structured approach to learning C++ concepts including:
 - Data Types and Variables
-- Control Structures (if, switch, loops)
+- Control Structures (if, switch, loops, While..do)
 - Functions and Parameters
 - Arrays and Array Operations
 - Structures and Enums
