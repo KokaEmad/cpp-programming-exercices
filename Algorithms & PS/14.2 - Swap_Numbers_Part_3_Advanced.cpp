@@ -17,7 +17,7 @@ void swapFunction(double& a , double& b)
     b = temp;
 }
 
-void printSwap(double a, double b)
+void printNums(double a, double b)
 {
 
     cout << "\n After swapping : \n"
@@ -31,8 +31,9 @@ int main()
 
 
     readNums(a,b);
+    printNums(a, b);
     swapFunction(a,b);
-    printSwap(a,b);
+    printNums(a,b);
 
 
     return 0;
