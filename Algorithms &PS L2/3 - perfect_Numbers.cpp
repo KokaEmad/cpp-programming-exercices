@@ -3,44 +3,36 @@ using namespace std;
 
 int ReadPositiveNumber(string Message)
 {
-    int Number = 0; 
+    int Number = 0;
     do
     {
-        cout << Message << endl; 
-        cin >> Number;           
-    } while (Number <= 0); 
-    return Number; 
+        cout << Message << endl;
+        cin >> Number;
+    } while (Number <= 0);
+    return Number;
 }
 
-bool checkIsPerfect(int x)
+bool CheckIsPerfect(int x)
 {
     int sum = 0;
-    for (int i = 1; i <= x/2; i++)
+    for (int i = 1; i <= x / 2; i++)
     {
-        if (x%i == 0)
-        {
-            sum +=i ;
-        }
-        
-        
+        if (x % i == 0)
+            sum += i;
     }
-
     return x == sum;
 }
 
-void printIsPrefect(int x)
+void PrintIsPerfect(int x)
 {
-    if (checkIsPerfect(x) )
-    {
-        cout << x <<" Is perfect ";
-    }
+    if (CheckIsPerfect(x))
+        cout << x << " is a Perfect Number.\n";
     else
-    cout << x << " Is NOT Perfect Number.\n"; 
-    
+        cout << x << " is NOT a Perfect Number.\n";
 }
-
 
 int main()
 {
-    printIsPrefect(ReadPositiveNumber("Please enter positve number:\n"));
+    PrintIsPerfect(ReadPositiveNumber("Please enter a positive number:"));
+    return 0;
 }
