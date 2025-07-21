@@ -52,7 +52,7 @@ void checkPasswordMatching(string pass)
 // Main function
 int main()
 {
-    string password = readPassword(); // Get the password from user
-    checkPasswordMatching(password);  // Try to guess it
+    string password = readPassword(); 
+    checkPasswordMatching(password);  
     return 0;
 }
